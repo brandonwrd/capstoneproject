@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Hbo } from '../types/Hbo';
+import { HboService } from '../hbo.service';
 
 @Component({
   selector: 'app-hbo',

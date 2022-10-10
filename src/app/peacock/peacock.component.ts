@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Peacock } from '../types/Peacock';
+import { PeacockService } from '../peacock.service';
 
 @Component({
   selector: 'app-peacock',

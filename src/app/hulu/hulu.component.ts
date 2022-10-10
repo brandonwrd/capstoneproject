@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Hulu } from '../types/Hulu';
+import { HuluService } from '../hulu.service';
 
 @Component({
   selector: 'app-hulu',

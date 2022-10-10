@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Prime } from '../types/Prime';
+import { PrimeService } from '../prime.service';
 
 @Component({
   selector: 'app-prime',

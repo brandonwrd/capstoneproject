@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Netflix } from '../types/Netflix';
+import { NetflixService } from '../netflix.service';
 
 @Component({
   selector: 'app-netflix',
