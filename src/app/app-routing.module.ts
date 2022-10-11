@@ -7,7 +7,7 @@ import { HboComponent } from './hbo/hbo.component';
 import { PeacockComponent } from './peacock/peacock.component';
 
 const routes: Routes = [
-  { path: 'netlfix', component: NetflixComponent },
+  { path: 'netflix', component: NetflixComponent },
   { path: 'hulu', component: HuluComponent },
   { path: 'prime', component: PrimeComponent },
   { path: 'hbo', component: HboComponent },
