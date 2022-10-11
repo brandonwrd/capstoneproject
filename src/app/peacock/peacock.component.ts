@@ -9,7 +9,7 @@ import { PeacockService } from '../peacock.service';
 })
 export class PeacockComponent implements OnInit {
 
-  constructor() { }
+  constructor(private peacockService: PeacockService) { }
 
   ngOnInit(): void {
   }

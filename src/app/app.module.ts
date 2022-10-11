@@ -20,7 +20,7 @@ import { PeacockComponent } from './peacock/peacock.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

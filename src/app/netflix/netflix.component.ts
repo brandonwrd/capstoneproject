@@ -9,7 +9,7 @@ import { NetflixService } from '../netflix.service';
 })
 export class NetflixComponent implements OnInit {
 
-  constructor() { }
+  constructor(private netflixService: NetflixService) { }
 
   ngOnInit(): void {
   }

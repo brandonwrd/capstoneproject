@@ -9,7 +9,7 @@ import { HuluService } from '../hulu.service';
 })
 export class HuluComponent implements OnInit {
 
-  constructor() { }
+  constructor(private huluService: HuluService) { }
 
   ngOnInit(): void {
   }

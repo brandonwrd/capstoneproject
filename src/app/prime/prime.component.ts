@@ -9,7 +9,7 @@ import { PrimeService } from '../prime.service';
 })
 export class PrimeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private primeService: PrimeService) { }
 
   ngOnInit(): void {
   }

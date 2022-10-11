@@ -9,7 +9,7 @@ import { HboService } from '../hbo.service';
 })
 export class HboComponent implements OnInit {
 
-  constructor() { }
+  constructor(private hboService: HboService) { }
 
   ngOnInit(): void {
   }
