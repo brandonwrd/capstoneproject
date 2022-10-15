@@ -8,6 +8,7 @@ import { HuluService } from '../hulu.service';
   styleUrls: ['./hulu.component.css']
 })
 export class HuluComponent implements OnInit {
+  huluShows: Hulu[] = [];
 
   constructor(private huluService: HuluService) { }
 
