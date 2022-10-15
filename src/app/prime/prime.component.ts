@@ -8,6 +8,7 @@ import { PrimeService } from '../prime.service';
   styleUrls: ['./prime.component.css']
 })
 export class PrimeComponent implements OnInit {
+  primeShows: Prime[] = [];
 
   constructor(private primeService: PrimeService) { }
 
