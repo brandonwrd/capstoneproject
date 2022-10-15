@@ -8,6 +8,7 @@ import { NetflixService } from '../netflix.service';
   styleUrls: ['./netflix.component.css']
 })
 export class NetflixComponent implements OnInit {
+  netflixShows: Netflix[] = [];
 
   constructor(private netflixService: NetflixService) { }
 
