@@ -8,6 +8,7 @@ import { PeacockService } from '../peacock.service';
   styleUrls: ['./peacock.component.css']
 })
 export class PeacockComponent implements OnInit {
+  peacockShows: Peacock[] = [];
 
   constructor(private peacockService: PeacockService) { }
 
