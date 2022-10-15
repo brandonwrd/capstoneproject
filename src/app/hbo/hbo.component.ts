@@ -8,6 +8,7 @@ import { HboService } from '../hbo.service';
   styleUrls: ['./hbo.component.css']
 })
 export class HboComponent implements OnInit {
+  hboShows: Hbo[] = [];
 
   constructor(private hboService: HboService) { }
 
