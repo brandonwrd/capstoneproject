@@ -13,6 +13,15 @@ export class HuluComponent implements OnInit {
   constructor(private huluService: HuluService) { }
 
   ngOnInit(): void {
+    this.getHulu();
   }
 
-}
+  getHulu(): void {
+    this.huluService.getHulu()
+    .subscribe(data => {
+      console.log(data)
+      this.huluShows = data;
+    })
+
+    }
+  }
