@@ -13,6 +13,15 @@ export class NetflixComponent implements OnInit {
   constructor(private netflixService: NetflixService) { }
 
   ngOnInit(): void {
+    this.getNetflix();
+  }
+
+  getNetflix(): void {
+    this.netflixService.getNetflix()
+      .subscribe(data => {
+        console.log(data);
+        this.netflixShows = data;
+      });
   }
 
 }
