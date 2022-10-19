@@ -1,4 +1,4 @@
-<ol>
+<!-- <ol>
     <li>Fairfax</li>
     <li>Jungle</li>
     <li>Yellowjackets</li>
@@ -9,4 +9,10 @@
     <li>Panic</li>
     <li>A League of Their Own</li>
     <li>Comrade Detective</li>
+</ol> -->
+
+<ol>
+    <li *ngFor="let primeShows of primeShows">
+        {{ primeShows.shows }}
+    </li>
 </ol>
