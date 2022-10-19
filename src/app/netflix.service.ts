@@ -7,11 +7,11 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class NetflixService {
-  BASE_URL = 'http://localhost:8080/'
+  // BASE_URL = 'http://localhost:8080/'
 
   constructor(private http: HttpClient) { }
 
-  getNetflix(): Observable<Netflix[]> {
-    return this.http.get<Netflix[]>(this.BASE_URL + 'netflix');
-  }
+  // getNetflix(): Observable<Netflix[]> {
+  //   return this.http.get<Netflix[]>(this.BASE_URL + 'netflix');
+  // }
 }

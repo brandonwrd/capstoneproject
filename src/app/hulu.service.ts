@@ -7,11 +7,11 @@ import { Hulu } from './types/Hulu';
   providedIn: 'root'
 })
 export class HuluService {
-  BASE_URL = 'http://localhost:8080/'
+  // BASE_URL = 'http://localhost:8080/'
 
-  constructor(private http: HttpClient) { }
+  constructor() { }
 
-  getHulu(): Observable<Hulu[]> {
-    return this.http.get<Hulu[]>(this.BASE_URL + 'hulu');
-  }
+  // getHulu(): Observable<Hulu[]> {
+  //   return this.http.get<Hulu[]>(this.BASE_URL + 'hulu');
+  // }
 }

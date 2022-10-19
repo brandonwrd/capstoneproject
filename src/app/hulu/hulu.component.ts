@@ -10,18 +10,18 @@ import { HuluService } from '../hulu.service';
 export class HuluComponent implements OnInit {
   huluShows: Hulu[] = [];
 
-  constructor(private huluService: HuluService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.getHulu();
+    // this.getHulu();
   }
 
-  getHulu(): void {
-    this.huluService.getHulu()
-    .subscribe(data => {
-      console.log(data)
-      this.huluShows = data;
-    })
+  // getHulu(): void {
+  //   this.huluService.getHulu()
+  //   .subscribe(data => {
+  //     console.log(data)
+  //     this.huluShows = data;
+  //   })
 
-    }
+  //   }
   }
