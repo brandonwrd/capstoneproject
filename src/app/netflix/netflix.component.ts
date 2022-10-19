@@ -8,7 +8,9 @@ import { NetflixService } from '../netflix.service';
   styleUrls: ['./netflix.component.css']
 })
 export class NetflixComponent implements OnInit {
-  netflixShows: Netflix[] = [{shows: 'DAHMER - Monster: The Jeffrey Dahmer Story'}, 
+  netflixShows: Netflix[] = [
+    
+  {shows: 'DAHMER - Monster: The Jeffrey Dahmer Story'}, 
   {shows: 'The Empress'}, 
   {shows: 'Dynasty'}, 
   {shows: 'El Rey, Vincente Fernández'}, 
@@ -17,7 +19,9 @@ export class NetflixComponent implements OnInit {
   {shows: 'In the Dark'}, 
   {shows: 'Malverde: El Santo Patrón'}, 
   {shows: 'Cocomelon'}, 
-  {shows: 'Fate: The Winx Saga'}];
+  {shows: 'Fate: The Winx Saga'}
+
+];
 
   constructor() { }
 
