@@ -8,7 +8,16 @@ import { HuluService } from '../hulu.service';
   styleUrls: ['./hulu.component.css']
 })
 export class HuluComponent implements OnInit {
-  huluShows: Hulu[] = [];
+  huluShows: Hulu[] = [{shows: "Schitt's Creek"},
+  {shows: "Ramy"},
+  {shows: "Abbott Elementary"},
+  {shows: "Atlanta"},
+  {shows: "The Handmaid's Tale"},
+  {shows: "The Patient"},
+  {shows: "Welcome to Wrexham"},
+  {shows: "This Fool"},
+  {shows: "Reservation Dogs"},
+  {shows: "The Americans"}];
 
   constructor() { }
 

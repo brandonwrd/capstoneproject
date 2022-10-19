@@ -1,4 +1,4 @@
-<ol>
+<!-- <ol>
     <li>Schitt's Creek</li>
     <li>Ramy</li>
     <li>Abbott Elementary</li>
@@ -9,4 +9,10 @@
     <li>This Fool</li>
     <li>Reservation Dogs</li>
     <li>The Americans</li>
+</ol> -->
+
+<ol>
+    <li *ngFor="let huluShows of huluShows">
+        {{ huluShows.shows }}
+    </li>
 </ol>
