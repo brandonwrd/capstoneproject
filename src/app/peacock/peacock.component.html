@@ -1,4 +1,4 @@
-<ol>
+<!-- <ol>
     <li>A.P. Bio</li>
     <li>Angelyne</li>
     <li>Bates Motel</li>
@@ -9,4 +9,10 @@
     <li>Columbo</li>
     <li>Dr. Death</li>
     <li>Everybody Hates Chris</li>
+</ol> -->
+
+<ol>
+    <li *ngFor="let peacockShows of peacockShows">
+        {{ peacockShows.shows }}
+    </li>
 </ol>
