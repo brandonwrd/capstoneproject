@@ -1,4 +1,4 @@
-<ol>
+<!-- <ol>
     <li>Los Espookys</li>
     <li>House of the Dragon</li>
     <li>Abbott Elementary</li>
@@ -9,4 +9,10 @@
     <li>The Rehearsal</li>
     <li>Westworld</li>
     <li>Irma Vep</li>
+</ol> -->
+
+<ol>
+    <li *ngFor="let hboShows of hboShows">
+        {{ hboShows.shows }}
+    </li>
 </ol>
