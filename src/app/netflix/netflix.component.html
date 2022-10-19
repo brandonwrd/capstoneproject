@@ -1,4 +1,4 @@
-<ol>
+<!-- <ol>
     <li>DAHMER - Monster: The Jeffrey Dahmer Story</li>
     <li>The Empress</li>
     <li>Dynasty</li>
@@ -9,4 +9,8 @@
     <li>Malverde: El Santo Patrón</li>
     <li>Cocomelon</li>
     <li>Fate: The Winx Saga</li>
-</ol>
+</ol> -->
+
+<ul *ngFor="let netflixShows of netflixShows">
+    <li>{{ netflixShows.shows }}</li>
+</ul>
