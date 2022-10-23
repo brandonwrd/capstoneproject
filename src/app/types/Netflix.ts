@@ -1,3 +1,3 @@
 export interface Netflix {
-    shows: string;
+    show: string;
 }

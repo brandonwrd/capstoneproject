@@ -10,16 +10,16 @@ import { HuluService } from '../hulu.service';
 export class HuluComponent implements OnInit {
   huluShows: Hulu[] = [
 
-  {shows: "Schitt's Creek"},
-  {shows: "Ramy"},
-  {shows: "Abbott Elementary"},
-  {shows: "Atlanta"},
-  {shows: "The Handmaid's Tale"},
-  {shows: "The Patient"},
-  {shows: "Welcome to Wrexham"},
-  {shows: "This Fool"},
-  {shows: "Reservation Dogs"},
-  {shows: "The Americans"}
+  {show: "Schitt's Creek"},
+  {show: "Ramy"},
+  {show: "Abbott Elementary"},
+  {show: "Atlanta"},
+  {show: "The Handmaid's Tale"},
+  {show: "The Patient"},
+  {show: "Welcome to Wrexham"},
+  {show: "This Fool"},
+  {show: "Reservation Dogs"},
+  {show: "The Americans"}
   
 ];
 

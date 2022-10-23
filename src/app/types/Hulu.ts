@@ -1,3 +1,3 @@
 export interface Hulu {
-    shows: string;
+    show: string;
 }

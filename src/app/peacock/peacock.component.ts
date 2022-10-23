@@ -10,16 +10,16 @@ import { PeacockService } from '../peacock.service';
 export class PeacockComponent implements OnInit {
   peacockShows: Peacock[] = [
   
-  {shows: "A.P. Bio"},
-  {shows: "Angelyne"},
-  {shows: "Bates Motel"},
-  {shows: "Battlestar Galactica"},
-  {shows: "Brooklyn Nine-Nine"},
-  {shows: "Cheers"},
-  {shows: "Chucky"},
-  {shows: "Columbo"},
-  {shows: "Dr. Death"},
-  {shows: "Everybody Hates Chris"}
+  {show: "A.P. Bio"},
+  {show: "Angelyne"},
+  {show: "Bates Motel"},
+  {show: "Battlestar Galactica"},
+  {show: "Brooklyn Nine-Nine"},
+  {show: "Cheers"},
+  {show: "Chucky"},
+  {show: "Columbo"},
+  {show: "Dr. Death"},
+  {show: "Everybody Hates Chris"}
 
 ];
 

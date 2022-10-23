@@ -10,16 +10,16 @@ import { PrimeService } from '../prime.service';
 export class PrimeComponent implements OnInit {
   primeShows: Prime[] = [
   
-  {shows: "Fairfax"},
-  {shows: "Jungle"},
-  {shows: "Yellowjackets"},
-  {shows: "A Private Affair"},
-  {shows: "Death Note"},
-  {shows: "The Lord of the Rings: The Rings of Power"},
-  {shows: "Paper Girls"},
-  {shows: "Panic"},
-  {shows: "A League of Their Own"},
-  {shows: "Comrade Detective"}
+  {show: "Fairfax"},
+  {show: "Jungle"},
+  {show: "Yellowjackets"},
+  {show: "A Private Affair"},
+  {show: "Death Note"},
+  {show: "The Lord of the Rings: The Rings of Power"},
+  {show: "Paper Girls"},
+  {show: "Panic"},
+  {show: "A League of Their Own"},
+  {show: "Comrade Detective"}
 
 ];
 

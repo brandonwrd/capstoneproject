@@ -10,16 +10,16 @@ import { NetflixService } from '../netflix.service';
 export class NetflixComponent implements OnInit {
   netflixShows: Netflix[] = [
     
-  {shows: 'DAHMER - Monster: The Jeffrey Dahmer Story'}, 
-  {shows: 'The Empress'}, 
-  {shows: 'Dynasty'}, 
-  {shows: 'El Rey, Vincente Fernández'}, 
-  {shows: 'Conversations With a Killer: The John Wayne Gacy Tapes'}, 
-  {shows: 'Cobra Kai'}, 
-  {shows: 'In the Dark'}, 
-  {shows: 'Malverde: El Santo Patrón'}, 
-  {shows: 'Cocomelon'}, 
-  {shows: 'Fate: The Winx Saga'}
+  {show: 'DAHMER - Monster: The Jeffrey Dahmer Story'}, 
+  {show: 'The Empress'}, 
+  {show: 'Dynasty'}, 
+  {show: 'El Rey, Vincente Fernández'}, 
+  {show: 'Conversations With a Killer: The John Wayne Gacy Tapes'}, 
+  {show: 'Cobra Kai'}, 
+  {show: 'In the Dark'}, 
+  {show: 'Malverde: El Santo Patrón'}, 
+  {show: 'Cocomelon'}, 
+  {show: 'Fate: The Winx Saga'}
 
 ];
 

@@ -1,3 +1,3 @@
 export interface Prime {
-    shows: string;
+    show: string;
 }

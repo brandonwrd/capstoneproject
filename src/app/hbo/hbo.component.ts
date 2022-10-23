@@ -10,16 +10,16 @@ import { HboService } from '../hbo.service';
 export class HboComponent implements OnInit {
   hboShows: Hbo[] = [
 
-  {shows: "Los Espookys"},
-  {shows: "House of the Dragon"},
-  {shows: "Abbott Elementary"},
-  {shows: "Selena + Chef"},
-  {shows: "Industry"},
-  {shows: "Pretty Little Liars: Original Sin"},
-  {shows: "Genndy Tartakovsky's Primal"},
-  {shows: "The Rehearsal"},
-  {shows: "Westworld"},
-  {shows: "Irma Vep"}
+  {show: "Los Espookys"},
+  {show: "House of the Dragon"},
+  {show: "Abbott Elementary"},
+  {show: "Selena + Chef"},
+  {show: "Industry"},
+  {show: "Pretty Little Liars: Original Sin"},
+  {show: "Genndy Tartakovsky's Primal"},
+  {show: "The Rehearsal"},
+  {show: "Westworld"},
+  {show: "Irma Vep"}
   
 ];
 

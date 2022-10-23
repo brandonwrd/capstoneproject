@@ -1,3 +1,3 @@
 export interface Hbo {
-    shows: string;
+    show: string;
 }
