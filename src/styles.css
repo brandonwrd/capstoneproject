@@ -9,6 +9,12 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 li {
     color: white;
 }
