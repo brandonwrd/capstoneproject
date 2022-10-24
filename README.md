@@ -6,7 +6,3 @@
 3. Amazon Prime - https://www.complex.com/pop-culture/best-shows-on-amazon-prime/
 4. HBO Max - https://www.tvguide.com/news/best-shows-on-hbo-max/
 5. Peacock - https://www.complex.com/pop-culture/best-peacock-shows/
-
-- add images
-- API calls
-- 
